@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstore
+    username: your_username
+    password: Your_password
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+app:
+  name: Book Catalogue API
+  version: 1.0
